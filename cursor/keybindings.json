@@ -167,12 +167,12 @@
   {
     "key": "space ]",
     "command": "editor.action.marker.nextInFiles",
-    "when": "editorFocus"
+    "when": "neovim.mode !== 'insert' && editorFocus"
   },
   {
     "key": "space [",
     "command": "editor.action.marker.prevInFiles",
-    "when": "editorFocus"
+    "when": "neovim.mode !== 'insert' &&  editorFocus"
   },
   /** === Terminal === */
   {
