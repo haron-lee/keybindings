@@ -164,6 +164,16 @@
     },
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
+  {
+    "key": "space ]",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "space [",
+    "command": "editor.action.marker.prevInFiles",
+    "when": "editorFocus"
+  },
   /** === Terminal === */
   {
     "key": "ctrl-l",
