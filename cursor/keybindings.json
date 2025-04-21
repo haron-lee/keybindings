@@ -31,12 +31,12 @@
   {
     "key": "space ,",
     "command": "workbench.action.showAllEditors",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space e",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
 
   /** === for coding === */
@@ -58,52 +58,52 @@
   {
     "key": "space c a",
     "command": "editor.action.codeAction",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space c r",
     "command": "editor.action.rename",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space c s",
     "command": "workbench.action.gotoSymbol",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space b d",
     "command": "workbench.action.closeActiveEditor",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space space",
     "command": "workbench.action.quickOpen",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space g d",
     "command": "editor.action.revealDefinition",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space g r",
     "command": "editor.action.goToReferences",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space s e",
     "command": "workbench.view.explorer",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space s g",
     "command": "workbench.action.findInFiles",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space g g",
     "command": "workbench.view.scm",
-    "when": "neovim.mode == 'normal' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "ctrl-n",
@@ -167,12 +167,12 @@
   {
     "key": "space ]",
     "command": "editor.action.marker.nextInFiles",
-    "when": "neovim.mode !== 'insert' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode !== 'insert' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   {
     "key": "space [",
     "command": "editor.action.marker.prevInFiles",
-    "when": "neovim.mode !== 'insert' && !inputFocus && (!composerFocused || editorTextFocus)"
+    "when": "neovim.mode !== 'insert' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
   /** === Terminal === */
   {
