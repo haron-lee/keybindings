@@ -175,12 +175,12 @@
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-    "key": "space ]",
+    "key": "] d",
     "command": "editor.action.marker.nextInFiles",
     "when": "neovim.mode !== 'insert' && editorFocus"
   },
   {
-    "key": "space [",
+    "key": "[ d",
     "command": "editor.action.marker.prevInFiles",
     "when": "neovim.mode !== 'insert' &&  editorFocus"
   },
