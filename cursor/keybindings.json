@@ -33,11 +33,6 @@
     "command": "workbench.action.showAllEditors",
     "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
   },
-  {
-    "key": "space e",
-    "command": "workbench.action.toggleSidebarVisibility",
-    "when": "neovim.mode == 'normal' && !terminalFocus && (!composerFocused || editorTextFocus)"
-  },
 
   /** === for coding === */
   {
